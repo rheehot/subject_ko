@@ -3,33 +3,33 @@
 ## 42 과제 리스트
 | 과제명            | 번역상태                                                                   | 번역자   | 
 |------------------|----------------------------------------------------------------------------|--------|
-| libft            | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| get_next_line    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| ft_printf        | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| netwhat          | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| ft_server        | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cub3d            | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| miniRT           | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| libasm           | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| minishell        | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| ft_services      | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| philosophers     | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 00    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 01    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 02    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 03    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 04    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 05    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 06    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 07    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| cpp module 08    | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| ft_containers    | <ul><li>- [ ] 완료</li><li>- [X] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| webserv          | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [X] 검토중</li></ul> |         |
-| ft_irc           | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
-| ft_transcendence | <ul><li>- [ ] 완료</li><li>- [ ] 작업중</li><li>- [ ] 검토중</li></ul> |         |
+| libft            | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| get_next_line    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_printf        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| netwhat          | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_server        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cub3d            | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| miniRT           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| libasm           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| minishell        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_services      | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| philosophers     | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 00    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 01    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 02    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 03    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 04    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 05    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 06    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 07    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| cpp module 08    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_containers    | <ul><li>- [X] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| webserv          | <ul><li>- [ ] 작업중</li><li>- [X] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_irc           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_transcendence | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 
 ## 번역할 과제 찜하기
-1. 번역중/완료가 체크되지 않은 과제 중에서 본인이 하고 싶은 과제를 골라주세요 (master 브렌치 read.md 를 직접 수정하시면 됩니다)
+1. 작업중/검토중/완료가 체크되지 않은 과제 중에서 본인이 하고 싶은 과제를 골라주세요 (master 브렌치 read.md 를 직접 수정하시면 됩니다)
 
 ## 번역을 시작하기
 ```
