@@ -4,7 +4,7 @@
 | 과제명            | 번역상태                                                                   | 번역자   |
 |------------------|----------------------------------------------------------------------------|--------|
 | libft            | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
-| get_next_line    | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
+| get_next_line    | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | ft_printf        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | netwhat          | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | ft_server        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
