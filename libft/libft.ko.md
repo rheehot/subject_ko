@@ -33,7 +33,7 @@ Common Instructions
 * 프로젝트는 Norm 규칙에 맞춰 작성되어야 합니다. 보너스 파일/함수가 있는 경우, 해당 파일/함수
 들은 norm 검사에 포함되며, norm error가 있을 시, 0점을 받게 될것입니다.
 * 함수들은 정의되지 않은 행동들과는 별개로 예기치 않게 중단되어서는 안 됩니다.(예를 들어,
-segmentation fault, bus error, double free 등.)
+segmentation fault, bus error, double free 등.) 만약 이렇게 중단되면, 당신의 프로젝트는 작동하지 않는 것으로 여겨지고 평가에서 0점을 받을 것입니다.
 * 필요한 경우 heap에 할당된 모든 메모리 공간은 적절하게 해제되어야 합니다. 메모리 누수는 용
 납되지 않을 것입니다.
 * 그 과제에서 필요한 경우, Makefile을 제출해야 합니다. 그것은 -Wall -Wextra -Werror 플래그를
