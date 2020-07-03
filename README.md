@@ -7,7 +7,7 @@
 | get_next_line    | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | ft_printf        | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | netwhat          | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
-| ft_server        | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| ft_server        | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | cub3d            | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | miniRT           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | libasm           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
@@ -29,7 +29,7 @@
 | ft_transcendence | <ul><li>- [X] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  wpark  |
 
 ## 번역할 과제 찜하기
-작업중/검토중/완료가 체크되지 않은 과제 중에서 본인이 하고 싶은 과제를 골라주세요. 
+작업중/검토중/완료가 체크되지 않은 과제 중에서 본인이 하고 싶은 과제를 골라주세요.
 현재 default 브랜치로 설정된 checklist 브렌치 read.md 를 직접 수정하시면 됩니다.
 
 ## 번역을 시작하기
@@ -54,7 +54,7 @@ git checkout [작업할 프로젝트명]
 5. <b>2명 이상의 승인</b>을 받아야만 dev branch 에 merge 할 수 있습니다.
 
 ## 다른 사람 번역을 첨삭할 때
-다른 사람의 번역을 첨삭할 때는 두 가지 방법이 있습니다. 
+다른 사람의 번역을 첨삭할 때는 두 가지 방법이 있습니다.
 해당 번역의 pull request 에서 리뷰를 남기거나, 다른 사람의 번역 위에 커밋을 쌓을 수 있습니다.
 
 * 리뷰를 남기는 방법
