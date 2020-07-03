@@ -7,7 +7,7 @@
 | get_next_line    | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | ft_printf        | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | netwhat          | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
-| ft_server        | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
+| ft_server        | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | cub3d            | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | miniRT           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | libasm           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
