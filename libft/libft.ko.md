@@ -48,7 +48,14 @@ Chpater 3
 
 Mandatory part
 
-
+```
+Program name | libft.a
+Turn in files | *.c, libft.h, Makefile
+Makefile | Yes
+External functs. | Detailed below
+Libft authorized | Non-applicable
+Description | 여러분의 교육과정에서 사용할 중요한 함수들이 들어있는 자신만의 라이브러리를 만드세요.
+```
 
 3.1 Technical considerations
 
@@ -91,7 +98,109 @@ strdup, calloc
 화해야 합니다. 이러한 함수 중 일부는 파트1의 함수들을 쓰는 데 유용할 수 있습니다.
 
 ```
-ft_substr, ft_strjoin ...
+Function name | ft_substr
+Prototype | char *ft_substr(char const *s, unsigned int start,
+size_t len);
+Turn in files | -
+Parameters | #1. 하위 문자열을 만들 문자열. #2. 문자열 's'에 있는 하위 문자열의 시작 인덱스. #3. 하위 문자열의 최대 길이.
+Return value | 하위 문자열. 할당 실패시 NULL.
+External functs. | malloc
+Description | malloc(3)을 할당하고 문자열 's'에서 하위 문자열을 반환. 하위 문자열은 인덱스 'start'에서 시작되며 최대 크기는 'len'이다.
+```
+
+```
+Function name | ft_strjoin
+Prototype | char *ft_strjoin(char const *s1, char const *s2);
+Turn in files | -
+Parameters | #1. 앞에 올 문자열. #2. 뒤에 올 문자열.
+Return value | 새로운 문자열. 할당 실패시 NULL.
+External functs. | malloc
+Description | malloc(3)을 할당하고 새로운 문자열을 반환. 새로운 문자열은 문자열 's1'과 문자열 's2'의 연결된 형태.
+```
+
+```
+Function name | ft_strtrim
+Prototype | char *ft_strtrim(char const *s1, char const *set);
+Turn in files | -
+Parameters | #1. 제거될 문자열. #2. 제거할 참조 문자 집합.
+Return value | 문자가 제거된 문자열. 할당 실패시 NULL.
+External functs. | malloc
+Description | malloc(3)을 할당하고 문자열의 처음과 끝에서 'set'에 지정된 문자가 제거된 문자열 's1'의 사본을 반환.
+```
+
+# page 7
+
+```
+Function name | ft_split
+Prototype | char **ft_split(char const *s, char c);
+Turn in files | -
+Parameters | #1. 분할할 문자열. #2. 구분 문자.
+Return value | 분할로 인한 새 문자열 배열. 할당 실패시 NULL.
+External functs. | malloc, free
+Description | malloc(3)을 할당하고 구분 문자 'c'를 사용하여 문자열 's'을 분할하여 얻은 새로운 문자열 배열을 반환. 그 배열은 NULL로 끝나야 합니다.
+```
+
+```
+Function name | ft_itoa
+Prototype | char *ft_itoa(int n);
+Turn in files | -
+Parameters | #1. 변환할 정수.
+Return value | 정수를 나타내는 문자열. 할당 실패시 NULL.
+External functs. | malloc
+Description | malloc(3)을 할당하고 인수로 받은 정수를 나타내는 문자열을 반환. 음수 처리는 필수.
+```
+
+```
+Function name | ft_strmapi
+Prototype | char *ft_strmapi(char const *s, char (*f)(unsigned
+int, char));
+Turn in files | -
+Parameters | #1. 반복할 문자열. #2. 각 문자에 적용할 함수.
+Return value | 'f'함수를 연속적으로 적용시킨 문자열.  할당 실패시 NULL.
+External functs. | malloc
+Description | 문자열 's'의 각 문자에 'f'함수를 연속적으로 적용시킨 새로운 문자열을 만들기. 새로운 문자열은 malloc(3)을 할당.
+```
+
+# page 8
+
+```
+Function name | ft_putchar_fd
+Prototype | void ft_putchar_fd(char c, int fd);
+Turn in files | -
+Parameters | #1. 출력할 문자. #2. 쓰여질 파일디스크립터.
+Return value | None
+External functs. | write
+Description | 문자 'c'를 주어진 파일디스크립터로 출력.
+```
+
+```
+Function name | ft_putstr_fd
+Prototype | void ft_putstr_fd(char *s, int fd);
+Turn in files | -
+Parameters | #1. 출력할 문자열. #2. 쓰여질 파일디스크립터.
+Return value | None
+External functs. | write
+Description | 문자열 's'을 주어진 파일디스크립터로 출력.
+```
+
+```
+Function name | ft_putendl_fd
+Prototype | void ft_putendl_fd(char *s, int fd);
+Turn in files | -
+Parameters | #1. 출력할 문자열. #2. 쓰여질 파일디스크립터
+Return value | None
+External functs. | write
+Description | 문자열 's'을 주어진 파일디스크립터로 출력하고 newline으로 끝내기.
+```
+
+```
+Function name | ft_putnbr_fd
+Prototype | void ft_putnbr_fd(int n, int fd);
+Turn in files | -
+Parameters | #1. 출력할 정수. #2. 쓰여질 파일디스크립터.
+Return value | None
+External functs. | write
+Description | 정수 'n'을 주어진 파일디스크립터로 출력.
 ```
 
 # Page 9
@@ -133,9 +242,97 @@ typedef struct s_list
 아래의 함수들은 리스트를 쉽게 사용할 수 있게 해줄 것입니다.
 
 ```
-ft_lstnew, ft_lstadd_front ...
+Function name | ft_lstnew
+Prototype | t_list *ft_lstnew(void *content);
+Turn in files | -
+Parameters | #1. 새로운 요소를 만들 content.
+Return value | 새로운 요소.
+External functs. | malloc
+Description | malloc(3)을 할당하고 새로운 요소를 반환. 변수 'content'는 매개변수 'content'의 값에 따라 초기화된다. 변수 'next'는 NULL로 초기화된다.
+```
+
+```
+Function name | ft_lstadd_front
+Prototype | void ft_lstadd_front(t_list **lst, t_list *new);
+Turn in files | -
+Parameters | #1. 첫 번째 링크 리스트의 포인터 주소. #2. 리스트에 추가되기 위한 요소의 포인터 주소.
+Return value | None
+External functs. | None
+Description | 리스트의 시작부분에 요소 'new'를 추가.
+```
+
+```
+Function name | ft_lstsize
+Prototype | int ft_lstsize(t_list *lst);
+Turn in files | -
+Parameters | #1. 리스트의 시작.
+Return value | 리스트의 길이.
+External functs. | None
+Description | 리스트의 요소의 갯수를 셈.
+```
+
+```
+Function name | ft_lstlast
+Prototype | t_list *ft_lstlast(t_list *lst);
+Turn in files | -
+Parameters | #1. 리스트의 시작
+Return value | 리스트의 마지막 요소.
+External functs. | None
+Description | 리스트의 마지막 요소를 반환.
+```
+
+# page 11
+
+```
+Function name | ft_lstadd_back
+Prototype | void ft_lstadd_back(t_list **lst, t_list *new);
+Turn in files | -
+Parameters | #1. 첫 번째 연결리스트의 포인터 주소 #2. 요소가 될 포인터 주소
+Return value | None
+External functs. | None
+Description | 리스트의 끝에 'new' 요소를 추가.
+```
+
+```
+Function name | ft_lstdelone
+Prototype | void ft_lstdelone(t_list *lst, void (*del)(void *));
+Turn in files | -
+Parameters | #1. free할 요소 #2. content를 삭제하는데 사용되는 함수의 주소
+Return value | None
+External functs. | free
+Description | 매개변수로 요소를 가져오고 매개변수로 주어진 함수 'del'을 적용시켜 요소의 content의 주소를 free하고 난 뒤 요소를 free. 'next'의 주소는 free되지 않아야함.
+```
+
+```
+Function name | ft_lstclear
+Prototype | void ft_lstclear(t_list **lst, void (*del)(void *));
+Turn in files | -
+Parameters | #1. 요소의 포인터 주소 #2. 요소의 content를 삭제하는데 사용되는 함수의 주소.
+Return value | None
+External functs. | free
+Description | 함수 'del'과 free(3)을 사용하여, 주어진 요소와 해당 요소의 모든 후속 요소를 삭제하고 free함.
 ```
 
 # Page 12
+
+```
+Function name | ft_lstiter
+Prototype | void ft_lstiter(t_list *lst, void (*f)(void *));
+Turn in files | -
+Parameters | #1. 요소의 포인터 주소 #2. 리스트에 반복적으로 사용되는 함수의 주소
+Return value | None
+External functs. | None
+Description | 리스트 'lst'를 반복하여 각 요소의 content에 함수 'f'를 적용시킴.
+```
+
+```
+Function name | ft_lstmap
+Prototype | t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+Turn in files | -
+Parameters | #1. 요소의 포인터 주소 #2. 리스트에 반복적으로 사용되는 함수의 주소 #3. 필요한 경우 요소의 content를 삭제하기위해 사용되는 함수의 주소
+Return value | 새로운 리스트. 할당 실패시 NULL.
+External functs. | malloc, free
+Description | 리스트 'lst'를 반복하여 각 요소의 content에 함수 'f'를 적용. 함수 'f'를 연속적으로 적용시켜 새로운 리스트를 만듬. 필요한 경우 함수 'del'은 요소의 content를 삭제하는데 사용됨.
+```
 
 적합하다고 생각한다면, 자신의 libft에 어떠한 함수들도 자유롭게 추가시킬 수 있습니다.
