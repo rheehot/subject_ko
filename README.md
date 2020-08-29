@@ -13,7 +13,7 @@
 | libasm           | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  yopark |
 | minishell        | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  yechoi |
 | ft_services      | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  yochoi |
-| philosophers     | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
+| philosophers     | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | cpp module 00    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | cpp module 01    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | cpp module 02    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
@@ -65,8 +65,8 @@ git checkout [작업할 프로젝트명]
   1. 해당 repo 를 fork 합니다.
   2. 수정을 제안하고 싶은 번역의 브랜치로 이동합니다. (git checkout [브랜치명])
   3. 수정을 완료하고 커밋 후 본인의 repo 로 push
-  4. organization 프로젝트 브랜치로 Pull Request(PR) 를 합니다. 이때 같은 브랜치로 PR을 했는지 확인해주세요. 예를들어 본인이 libft브랜치에서 libft 를 수정했다면 PR시 [본인id]/libft -> subject_ko/libft 로 PR을 해야합니다. 
-  5. 그 후 해당 프로젝트 번역자가 확인 후 수정안을 합치면 됩니다. 
+  4. organization 프로젝트 브랜치로 Pull Request(PR) 를 합니다. 이때 같은 브랜치로 PR을 했는지 확인해주세요. 예를들어 본인이 libft브랜치에서 libft 를 수정했다면 PR시 [본인id]/libft -> subject_ko/libft 로 PR을 해야합니다.
+  5. 그 후 해당 프로젝트 번역자가 확인 후 수정안을 합치면 됩니다.
 
 ## 주의사항
 1. 번역을 할 때는 원문을 최대한 해치지 않도록 번역해주세요.
