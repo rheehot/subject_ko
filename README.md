@@ -11,7 +11,7 @@
 | cub3d            | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | miniRT           | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
 | libasm           | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  yopark |
-| minishell        | <ul><li>- [x] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |  yechoi |
+| minishell        | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  yechoi |
 | ft_services      | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  yochoi |
 | philosophers     | <ul><li>- [ ] 작업중</li><li>- [x] 검토중</li><li>- [ ] 완료</li></ul> |  gipark  |
 | cpp module 00    | <ul><li>- [ ] 작업중</li><li>- [ ] 검토중</li><li>- [ ] 완료</li></ul> |         |
