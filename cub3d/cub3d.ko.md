@@ -136,8 +136,8 @@ cub3D
     R 1920 1080
     ```
 
-    · identifier: R
-    · x 렌더 크기
+    · identifier: R<br>
+    · x 렌더 크기<br>
     · y 렌더 크기
 
     \* 북쪽 텍스쳐:
@@ -146,7 +146,7 @@ cub3D
     NO ./path_to_the_north_texture
     ```
 
-    · identifier: NO
+    · identifier: NO<br>
     · 북쪽 텍스쳐가 담겨있는 경로
 
     \* 남쪽 텍스쳐:
@@ -155,7 +155,7 @@ cub3D
     SO ./path_to_the_south_texture
     ```
 
-    · identifier: SO
+    · identifier: SO<br>
     · 남쪽 텍스쳐가 담겨있는 경로
 
     \* 서쪽 텍스쳐:
@@ -164,7 +164,7 @@ cub3D
     WE ./path_to_the_west_texture
     ```
 
-    · identifier: WE
+    · identifier: WE<br>
     · 서쪽 텍스쳐가 담겨있는 경로
 
     \* 동쪽 텍스쳐:
@@ -173,7 +173,7 @@ cub3D
     EA ./path_to_the_east_texture
     ```
 
-    · identifier: EA
+    · identifier: EA<br>
     · 동쪽 텍스쳐가 담겨있는 경로
 
     \* 아이템 텍스쳐:
@@ -182,7 +182,7 @@ cub3D
     S ./path_to_the_sprite_texture
     ```
 
-    · identifier: S
+    · identifier: S<br>
     · 아이템 텍스쳐가 담겨있는 경로
 
     \* 바닥 색상:
@@ -191,7 +191,7 @@ cub3D
     F 220,100,0
     ```
 
-    · identifier: F
+    · identifier: F<br>
     · R,G,B 색상 [0,255]: 0, 255, 255
 
     # page 8
@@ -202,7 +202,7 @@ cub3D
     C 225,30,0
     ```
 
-    · identifier: C
+    · identifier: C<br>
     · R,G,B 색상 [0,255]: 0, 255, 255
 
   * .cub 파일의 예:
